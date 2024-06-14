@@ -83,10 +83,11 @@ a:hover {
 
 p {
     font-family: Ragara;
+    font-size: 20px;
     text-align: center;
     display: block;
     margin: 10px 0;
-    font-size: 16px;
+
 }
 
 .papas-y-padrinos {
