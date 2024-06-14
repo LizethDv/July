@@ -2,10 +2,12 @@
     font-family: agright;
     src: url(fuentes/agright\ regular.ttf);
 }
+
 @font-face {
     font-family: Dunialy;
     src: url(fuentes/Dunialy.otf);
 }
+
 @font-face {
     font-family: knocker;
     src: url(fuentes/Knocker.ttf);
@@ -22,12 +24,12 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 }
 
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    width: 90%;
+    margin: 20px auto;
     padding: 10px;
     background-color: #EFD3D7;
     border-radius: 8px;
@@ -37,12 +39,11 @@ body {
     background-position: center;
     background-size: 100%;
     opacity: 75%;
-    z-index: 1;
 }
 
 h1 {
     font-family: Dunialy;
-    font-size: 4em;
+    font-size: 2.5em;
     margin: 1rem;
     text-align: center;
     color: #086788;
@@ -52,14 +53,14 @@ h2 {
     font-family: Dunialy;
     text-align: center;
     color: #49A078;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 h3 {
     text-align: center;
     color: #49A078;
     font-family: knocker;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 a {
@@ -68,9 +69,11 @@ a {
     margin: 10px 0;
     color: #086788;
 }
+
 a:hover {
     color: #FFE45E;
 }
+
 p {
     text-align: center;
     display: block;
@@ -80,10 +83,9 @@ p {
 .papas-y-padrinos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 1em;
-    flex-direction: row;
     gap: 10px;
-    align-items: center;
 }
 
 form {
@@ -97,19 +99,16 @@ label, input {
 }
 
 img {
-    width: 20%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 80px; /* Ajusta según sea necesario */
     transition: transform 0.5s ease;
 }
 
 .img-left {
-    left: 5%;
+    align-self: flex-start;
 }
 
 .img2 {
-    right: 5%;
+    align-self: flex-end;
 }
 
 button {
@@ -144,63 +143,20 @@ button:hover {
     animation: swing 3s ease-in-out;
 }
 
-/* Media Queries */
-@media (max-width: 768px) {
-    h1 {
-        font-size: 3em;
-    }
-
-    h2 {
-        font-size: 2.5rem;
-    }
-
-    h3 {
-        font-size: 1.5rem;
-    }
-
-    .papas-y-padrinos {
-        flex-direction: column;
-    }
-
-    img {
-        width: 30%;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 2.5em;
-    }
-
-    h2 {
-        font-size: 2rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    .papas-y-padrinos {
-        flex-direction: column;
-    }
-
-    img {
-        width: 40%;
-    }
-
-    .img-left {
-        left: 2%;
-    }
-
-    .img2 {
-        right: 2%;
+/* Responsiveness */
+@media (min-width: 768px) {
+    .todo {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .container {
-        padding: 5px;
+        width: 60%;
+        margin: 20px;
     }
 
-    form {
-        width: 100%;
+    img {
+        width: 20%; /* Ajusta según sea necesario */
     }
 }
