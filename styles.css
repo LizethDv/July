@@ -21,7 +21,8 @@ body {
 .todo {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    align-items: center;
+    position: relative;
 }
 
 .container {
@@ -36,6 +37,7 @@ body {
     background-position: center;
     background-size: 100%;
     opacity: 75%;
+    z-index: 1;
 }
 
 h1 {
@@ -69,7 +71,6 @@ a {
 a:hover {
     color: #FFE45E;
 }
-
 p {
     text-align: center;
     display: block;
@@ -98,17 +99,17 @@ label, input {
 img {
     width: 20%;
     position: absolute;
-    padding-left: 5%;
-    align-items: flex-start;
-    margin-right: 60%;
+    top: 50%;
+    transform: translateY(-50%);
     transition: transform 0.5s ease;
 }
 
+.img-left {
+    left: 5%;
+}
+
 .img2 {
-    width: 20%;
-    position: absolute;
-    margin-left: 70%;
-    transition: transform 0.5s ease;
+    right: 5%;
 }
 
 button {
@@ -143,16 +144,10 @@ button:hover {
     animation: swing 3s ease-in-out;
 }
 
-/* Media Queries para Responsividad */
+/* Media Queries */
 @media (max-width: 768px) {
-    .container {
-        padding: 20px;
-        background-size: cover;
-    }
-
     h1 {
         font-size: 3em;
-        margin: 0.5rem;
     }
 
     h2 {
@@ -165,29 +160,10 @@ button:hover {
 
     .papas-y-padrinos {
         flex-direction: column;
-        align-items: center;
     }
 
     img {
         width: 30%;
-        padding-left: 0;
-        margin-right: 0;
-        position: relative;
-        align-self: center;
-        margin-bottom: 10px;
-    }
-
-    .img2 {
-        width: 30%;
-        margin-left: 0;
-        position: relative;
-        align-self: center;
-        margin-bottom: 10px;
-    }
-
-    button {
-        width: 100%;
-        max-width: 200px;
     }
 }
 
@@ -204,12 +180,27 @@ button:hover {
         font-size: 1.2rem;
     }
 
-    p, a, label, input {
-        font-size: 1rem;
+    .papas-y-padrinos {
+        flex-direction: column;
     }
 
-    button {
+    img {
+        width: 40%;
+    }
+
+    .img-left {
+        left: 2%;
+    }
+
+    .img2 {
+        right: 2%;
+    }
+
+    .container {
+        padding: 5px;
+    }
+
+    form {
         width: 100%;
-        max-width: 150px;
     }
 }
