@@ -45,7 +45,14 @@ h1{
     color: #086788;
 }
 
-h2 , h3 {
+h2 {
+    font-family: Dunialy;
+    text-align: center;
+    color: #49A078;
+    font-size: 3rem;
+}
+
+h3 {
     text-align: center;
     color: #49A078;
     font-family: knocker;
