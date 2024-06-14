@@ -81,11 +81,12 @@ a:hover {
     color: #FFE45E;
 }
 
-h4 {
+p {
     font-family: Ragara;
     text-align: center;
     display: block;
     margin: 10px 0;
+    font-size: 16px;
 }
 
 .papas-y-padrinos {
