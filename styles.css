@@ -1,6 +1,6 @@
 @font-face {
-    font-family: agright;
-    src: url(fuentes/agright-regular.ttf);
+    font-family: Ragara;
+    src: url(fuentes/Ragara.otf);
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: agright;
+    font-family: Ragara;
     background-color: #FEEAFA;
     margin: 0;
     padding: 5px;
@@ -82,7 +82,7 @@ a:hover {
 }
 
 p {
-    font-family: agright;
+    font-family: Ragara;
     text-align: center;
     display: block;
     margin: 10px 0;
@@ -185,7 +185,7 @@ audio {
     }
 
     img {
-        width: 30%; /* Ajusta según sea necesario */
+        width: 35%; /* Ajusta según sea necesario */
     }
 
     h1 {
