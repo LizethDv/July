@@ -1,6 +1,6 @@
 @font-face {
     font-family: agright;
-    src: url(fuentes/agright\ regular.ttf);
+    src: url(fuentes/agright-regular.ttf);
 }
 
 @font-face {
@@ -26,9 +26,14 @@ body {
     align-items: center;
 }
 
+.pajaritos {
+    align-items: center;
+    margin: 2rem;
+}
+
 .container {
-    max-width: 600px;
     width: 90%;
+    max-width: 600px;
     margin: 20px auto;
     padding: 10px;
     background-color: #EFD3D7;
@@ -43,7 +48,7 @@ body {
 
 h1 {
     font-family: Dunialy;
-    font-size: 3em;
+    font-size: 2.5em;
     margin: 1rem;
     text-align: center;
     color: #086788;
@@ -101,7 +106,7 @@ label, input {
 }
 
 img {
-    width: 80px; /* Ajusta según sea necesario */
+    width: 90px; 
     transition: transform 0.5s ease;
 }
 
@@ -131,6 +136,15 @@ button:hover {
     text-align: center;
     margin-top: 20px;
     color: green;
+}
+
+.audio-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+audio {
+    width: 80%;
 }
 
 @keyframes swing {
@@ -169,7 +183,7 @@ button:hover {
     }
 
     img {
-        width: 20%; /* Ajusta según sea necesario */
+        width: 30%; /* Ajusta según sea necesario */
     }
 
     h1 {
@@ -180,4 +194,3 @@ button:hover {
         font-size: 3em;
     }
 }
-
