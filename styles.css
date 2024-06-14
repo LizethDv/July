@@ -1,14 +1,14 @@
 @font-face {
-    font-family:agright;
-    src: url(fuentes/agright\ regular.ttf);
+    font-family: agright;
+    src: url(../../fuentes/agright\ regular.ttf);
 }
 @font-face {
     font-family: Dunialy;
-    src: url(fuentes/Dunialy.otf);
+    src: url(../../fuentes/Dunialy.otf);
 }
 @font-face {
     font-family: knocker;
-    src: url(fuentes/Knocker.ttf);
+    src: url(../../fuentes/Knocker.ttf);
 }
 
 body {
@@ -31,13 +31,14 @@ body {
     background-color: #EFD3D7;
     border-radius: 8px;
     box-shadow: 0 0 10px #086788;
-    background-image: url(imagenes/conchitadebautizo.png);
+    background-image: url(/imagenes/conchitadebautizo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
     opacity: 75%;
 }
-h1{
+
+h1 {
     font-family: Dunialy;
     font-size: 4em;
     margin: 1rem;
@@ -65,15 +66,17 @@ a {
     margin: 10px 0;
     color: #086788;
 }
-a:hover{
+a:hover {
     color: #FFE45E;
 }
+
 p {
     text-align: center;
     display: block;
     margin: 10px 0;
 }
-.papas-y-padrinos{
+
+.papas-y-padrinos {
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
@@ -92,7 +95,7 @@ label, input {
     margin: 5px 0;
 }
 
-.img-left {
+img {
     width: 20%;
     position: absolute;
     padding-left: 5%;
@@ -138,4 +141,75 @@ button:hover {
 
 .swing {
     animation: swing 3s ease-in-out;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        background-size: cover;
+    }
+
+    h1 {
+        font-size: 3em;
+        margin: 0.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    .papas-y-padrinos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 30%;
+        padding-left: 0;
+        margin-right: 0;
+        position: relative;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    .img2 {
+        width: 30%;
+        margin-left: 0;
+        position: relative;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    p, a, label, input {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        max-width: 150px;
+    }
 }
