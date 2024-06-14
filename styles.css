@@ -1,14 +1,14 @@
 @font-face {
     font-family:agright;
-    src: url(../../fuentes/agright\ regular.ttf);
+    src: url(fuentes/agright\ regular.ttf);
 }
 @font-face {
     font-family: Dunialy;
-    src: url(../../fuentes/Dunialy.otf);
+    src: url(fuentes/Dunialy.otf);
 }
 @font-face {
     font-family: knocker;
-    src: url(../../fuentes/Knocker.ttf);
+    src: url(fuentes/Knocker.ttf);
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     background-color: #EFD3D7;
     border-radius: 8px;
     box-shadow: 0 0 10px #086788;
-    background-image: url(/imagenes/conchitadebautizo.png);
+    background-image: url(imagenes/conchitadebautizo.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
