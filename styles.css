@@ -82,6 +82,7 @@ a:hover {
 }
 
 p {
+    font-family: agright;
     text-align: center;
     display: block;
     margin: 10px 0;
