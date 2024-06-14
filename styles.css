@@ -85,6 +85,7 @@ p {
     font-family: Ragara;
     font-size: 20px;
     text-align: center;
+    justify-content: space-around;
     display: block;
     margin: 10px 0;
 
