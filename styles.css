@@ -75,6 +75,7 @@ a {
     display: block;
     margin: 10px 0;
     color: #086788;
+    font-size: 25px;
 }
 
 a:hover {
@@ -83,7 +84,7 @@ a:hover {
 
 p {
     font-family: Ragara;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     justify-content: space-around;
     display: block;
@@ -107,6 +108,7 @@ form {
 
 label, input {
     margin: 5px 0;
+    font-size: 20px;
 }
 
 img {
