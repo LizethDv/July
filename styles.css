@@ -92,7 +92,7 @@ label, input {
     margin: 5px 0;
 }
 
-img-left {
+.img-left {
     width: 20%;
     position: absolute;
     padding-left: 5%;
