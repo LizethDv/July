@@ -43,10 +43,11 @@ body {
 
 h1 {
     font-family: Dunialy;
-    font-size: 2.5em;
+    font-size: 3em;
     margin: 1rem;
     text-align: center;
     color: #086788;
+    animation: fadeIn 2s ease-in-out, slideIn 1s ease-in-out;
 }
 
 h2 {
@@ -54,6 +55,7 @@ h2 {
     text-align: center;
     color: #49A078;
     font-size: 2rem;
+    animation: fadeIn 3s ease-in-out, slideIn 2s ease-in-out;
 }
 
 h3 {
@@ -143,6 +145,16 @@ button:hover {
     animation: swing 3s ease-in-out;
 }
 
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@keyframes slideIn {
+    0% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+}
+
 /* Responsiveness */
 @media (min-width: 768px) {
     .todo {
@@ -159,4 +171,13 @@ button:hover {
     img {
         width: 20%; /* Ajusta según sea necesario */
     }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
 }
+
