@@ -146,6 +146,7 @@ button:hover {
 
 audio {
     width: 80%;
+    opacity: 70%;
 }
 
 @keyframes swing {
