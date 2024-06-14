@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Ragara;
-    src: url(fuentes/Ragara.otf);
+    font-family: Bella-Cherry;
+    src: url(fuentes/Bella-Cherry.otf);
 }
 
 @font-face {
@@ -14,7 +14,7 @@
 }
 
 body {
-    font-family: Ragara;
+    font-family: Bella-Cherry;
     background-color: #FEEAFA;
     margin: 0;
     padding: 5px;
@@ -83,8 +83,8 @@ a:hover {
 }
 
 p {
-    font-family: Ragara;
-    font-size: 30px;
+    font-family: Bella-Cherry;
+    font-size: 35px;
     text-align: center;
     justify-content: space-around;
     display: block;
@@ -152,6 +152,7 @@ button:hover {
 audio {
     width: 80%;
     opacity: 70%;
+    animation: fadeIn 1s ease-in-out, slideIn 1s ease-in-out;
 }
 
 @keyframes swing {
