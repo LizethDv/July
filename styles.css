@@ -172,7 +172,7 @@ audio {
     animation: fadeIn 1s ease-in-out, slideIn 1s ease-in-out;
 }
 
-.asistencia{
+.asistencia, .audio-input{
     border-radius: 5px;
     border-color: #086788;
     background-color: #FEEAFA;
