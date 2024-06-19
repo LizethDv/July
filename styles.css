@@ -92,6 +92,7 @@ a {
     margin: 10px 0;
     color: #086788;
     font-size: 25px;
+    animation: fadeIn 6s ease-in-out, slideIn 2s ease-in-out;
 }
 
 a:hover {
@@ -158,7 +159,7 @@ button:hover {
 #confirmation-message {
     text-align: center;
     margin-top: 20px;
-    color: green;
+    color: #086788;
 }
 
 .audio-container {
@@ -190,7 +191,7 @@ audio {
 }
 
 .swing {
-    animation: swing 3s ease-in-out;
+    animation: swing 5s ease-in-out;
 }
 
 @keyframes fadeIn {
