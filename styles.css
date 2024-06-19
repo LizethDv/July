@@ -172,6 +172,12 @@ audio {
     animation: fadeIn 1s ease-in-out, slideIn 1s ease-in-out;
 }
 
+.asistencia{
+    border-radius: 5px;
+    background-color: #FEEAFA;
+    font-family: Bella-Cherry;
+}
+
 @keyframes swing {
     0% { transform: rotate(0deg); }
     25% { transform: rotate(15deg); }
