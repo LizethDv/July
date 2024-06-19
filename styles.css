@@ -176,6 +176,8 @@ audio {
     border-radius: 5px;
     background-color: #FEEAFA;
     font-family: Bella-Cherry;
+    text-align: center;
+    color: #086788;
 }
 
 @keyframes swing {
