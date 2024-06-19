@@ -89,6 +89,7 @@ p {
     justify-content: space-around;
     display: block;
     margin: 10px 0;
+    animation: fadeIn 4s ease-in-out, slideIn 2s ease-in-out;
 
 }
 
@@ -116,7 +117,7 @@ img {
     transition: transform 0.5s ease;
 }
 
-.img-left {
+.img1 {
     align-self: flex-start;
 }
 
@@ -191,7 +192,7 @@ audio {
     }
 
     img {
-        width: 35%; /* Ajusta según sea necesario */
+        width: 35%;
     }
 
     h1 {
