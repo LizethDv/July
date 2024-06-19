@@ -83,6 +83,7 @@ h3 {
     color: #49A078;
     font-family: knocker;
     font-size: 1.5rem;
+    animation: fadeIn 6s ease-in-out, slideIn 2s ease-in-out
 }
 
 a {
@@ -104,7 +105,7 @@ p {
     justify-content: space-around;
     display: block;
     margin: 10px 0;
-    animation: fadeIn 4s ease-in-out, slideIn 2s ease-in-out;
+    animation: fadeIn 6s ease-in-out, slideIn 2s ease-in-out;
 
 }
 
