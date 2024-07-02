@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Dunialy;
-    src: url(fuentes/Dunialy.otf);
+    font-family: Modellista;
+    src: url(fuentes/Modellista.otf);
 }
 
 @font-face {
@@ -62,7 +62,7 @@ body {
 }
 
 h1 {
-    font-family: Dunialy;
+    font-family: Modellista;
     font-size: 2.5em;
     margin: 1rem;
     text-align: center;
@@ -71,7 +71,7 @@ h1 {
 }
 
 h2 {
-    font-family: Dunialy;
+    font-family: Modellista;
     text-align: center;
     color: #49A078;
     font-size: 2rem;
@@ -191,7 +191,7 @@ audio {
 }
 
 .swing {
-    animation: swing 5s ease-in-out;
+    animation: swing 7s ease-in-out;
 }
 
 @keyframes fadeIn {
