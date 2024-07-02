@@ -9,8 +9,8 @@
 }
 
 @font-face {
-    font-family: knocker;
-    src: url(fuentes/Knocker.ttf);
+    font-family: Modellista;
+    src: url(fuentes/Modellista.otf);
 }
 
 body {
@@ -81,7 +81,7 @@ h2 {
 h3 {
     text-align: center;
     color: #49A078;
-    font-family: knocker;
+    font-family: Modellista;
     font-size: 1.5rem;
     animation: fadeIn 6s ease-in-out, slideIn 2s ease-in-out
 }
